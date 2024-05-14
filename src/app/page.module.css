@@ -3,9 +3,22 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 3rem;
+  min-height: 100vh; 
+  background-image: url(../../public/img/banner-style.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/* .menu {
+  background-image: url(../../img/banner-style.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95vw;
+  height: 79vh;
+} */
 
 .description {
   display: inherit;
@@ -16,6 +29,15 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+}
+
+.slogan {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 30ch;
+  text-wrap: balance;
 }
 
 .description a {
@@ -38,6 +60,20 @@
   font-weight: 700;
   font-family: var(--font-mono);
 }
+
+.logoName {
+  text-shadow: #ffffff70;
+  font-size: 2.4rem;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  width: var(--max-width);
+}
+
 
 .grid {
   display: grid;
@@ -66,7 +102,7 @@
 
 .card p {
   margin: 0;
-  opacity: 0.6;
+  opacity: 0.75;
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
